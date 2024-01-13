@@ -1,6 +1,7 @@
 name: Build Toolchains
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - '.github/workflows/toolchain.yml'
