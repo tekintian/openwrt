@@ -1,7 +1,7 @@
 name: Build Kernel
 
 on:
-  workflow_dispatch:
+#  workflow_dispatch:
   pull_request:
     paths:
       - '.github/workflows/check-kernel-patches.yml'
